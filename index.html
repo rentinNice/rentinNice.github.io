@@ -44,18 +44,31 @@ background-position: center;
 <body class="bg-white text-gray-800">
 
 <!-- HERO -->
-<section class="relative h-screen parallax flex items-center justify-center text-center"
-style="background-image: url('00.jpg');"
-<div class="absolute inset-0 bg-black/50"></div>
-
-<div class="relative z-10 text-white px-6 fade-up">
-<h1 class="text-4xl md:text-6xl mb-6 gradient-text">Апартаменты в центре Ниццы</h1>
-<p class="text-lg md:text-2xl mb-6">105 rue de France · 3 минуты до моря · Высокий этаж</p>
-<div class="space-x-4">
-<a href="#ru" class="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition">RU</a>
-<a href="#en" class="px-6 py-3 glass border border-white rounded-full font-medium hover:bg-white hover:text-black transition">EN</a>
-</div>
-</div>
+<section
+  class="relative h-screen flex items-center justify-center text-center bg-cover bg-center"
+  style="background-image: url('00.jpg');"
+>
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/60"></div>
+  <!-- Content -->
+  <div class="relative z-10 text-white px-6 fade-up">
+    <h1 class="text-4xl md:text-6xl mb-6 font-bold drop-shadow-xl">
+      Апартаменты в центре Ниццы
+    </h1>
+    <p class="text-lg md:text-2xl mb-6 drop-shadow-lg">
+      105 rue de France · 3 минуты до моря · Высокий этаж
+    </p>
+    <div class="space-x-4">
+      <a href="#ru"
+         class="px-6 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition">
+         RU
+      </a>
+      <a href="#en"
+         class="px-6 py-3 border border-white rounded-full font-medium hover:bg-white hover:text-black transition">
+         EN
+      </a>
+    </div>
+  </div>
 </section>
 
 <!-- RUSSIAN VERSION -->
